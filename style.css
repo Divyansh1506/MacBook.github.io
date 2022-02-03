@@ -1,0 +1,131 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+    background-color:rgb(24, 23, 23);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(77, 75, 75);
+}
+
+nav ul li {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 15px 35px 15px 35px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a img{
+    height: 20px;
+    width: 20px;
+    
+}
+#bag{
+    filter: invert(100%);
+}
+#search{
+    filter: invert(100%);
+}
+.heading{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 250px 5px 250px;
+    border-bottom: 2px solid rgb(158, 156, 156);
+
+}
+
+.heading .nright li{
+        display: inline-block;
+        justify-content: space-between;
+        margin: 15px 8px 15px 8px;
+}
+.heading .nright button{
+    background-color: rgb(58, 58, 202);
+    border-radius: 40%;
+    padding: 2px 5px 2px 5px ;
+}
+.heading h3{
+    margin: 12px 0px 12px 0px;
+}
+.sec1{
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+.sec1 h2{
+    font-size: 20px;
+    color: rgb(114, 110, 110);
+    margin: 160px 0px 5px 0px;
+}
+.sec1 .t1{
+    font-size: 40px;
+    margin: 2px 2px 2px 2px;
+}
+.sec1 .t2 {
+    color: rgb(114, 110, 110);
+    margin: 10px 0px 10px 0px;
+}
+.sec2 .i1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    width: 100%;
+    box-shadow: #fff;
+}
+.sec2 .i1 img{
+    width: 100%;
+    height:60vw;
+    margin: -100px 130px -100px 130px;
+    
+}
+.sec3{
+    color:white;
+}
+.sec3 .third{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec3 .third .f1{
+    border-top: 2px solid rgb(158, 156, 156);
+    display: flex;
+    align-items: center;
+}
+.sec3 .third .f2{
+    border-top: 2px solid rgb(158, 156, 156);
+    display: flex;
+    align-items: center;
+
+}
+.sec3 .third .f3{
+    border-top: 2px solid rgb(158, 156, 156);
+    display: flex;
+    align-items: center;
+
+}
+.sec3 .third .f4{
+    border-top: 2px solid rgb(158, 156, 156);
+    display: flex;
+    align-items: center;
+}
+.last img{
+    height:80vh;
+    width: 55vw;
+
+}
+.last{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 40px 0px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
